@@ -691,7 +691,7 @@ a {
   color: #4d5ae5;
 }
 
-.privacy-checkbox:checked .privacy-span {
+.privacy-checkbox:checked + .privacy-label > .privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
