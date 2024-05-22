@@ -691,6 +691,12 @@ a {
   color: #4d5ae5;
 }
 
+.privacy-checkbox:checked ~ .privacy-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .modal-window-second-btn {
   display: block;
   min-width: 169px;
